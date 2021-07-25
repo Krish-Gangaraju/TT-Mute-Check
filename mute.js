@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(event) {
 var audio, playbtn, mutebtn, seek_bar;
 function initAudioPlayer(){
 	audio = new Audio();
@@ -31,3 +32,4 @@ function initAudioPlayer(){
 	}
 }
 window.addEventListener("load", initAudioPlayer);
+});
